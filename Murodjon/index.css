@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav {
+    padding-top: 30px;
+    display: flex;
+    
+}
+
+
+.list {
+    display: flex;
+    margin: 0;
+    gap: 30px;
+    align-items: center;
+}
+
+.list-item {
+    color: #212121;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.list-item:hover {
+    color: #646464;
+    cursor: pointer;
+}
+
+.btn-click {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    width: 97px;
+    height: 32px;
+    border: none;
+    border-radius: 15px 0px;
+    background: #CAA892;
+}
+
+.modern {
+    color: #646464;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.create {
+    color: #212121;
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78px;
+    justify-content: space-around;
+    /* 108.333% */
+}
+
+.col_img {
+    width: 630px;
+    height: 500px;
+}
+
+.lorem {
+    width: 540px;
+    color: #646464;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.con {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px 0px;
+    background: #37806B;
+    width: 142.154px;
+    height: 42.808px;
+    flex-shrink: 0;
+}
+
+.col_div {
+    border-radius: 100px 0px;
+    border: 2px solid #B0855B;
+    width: 603px;
+    height: 503px;
+    top:-50px ;
+    left:-55px;
+    z-index: 5;
+}
+
+.col_img {
+    border-radius: 100px 0px;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    z-index: 10;
+    top: -30px;
+    left: -35px;
+    z-index: 5;
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
