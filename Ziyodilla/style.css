@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav {
+    padding-top: 30px;
+    display: flex;
+}
+
+
+.list {
+    display: flex;
+    margin: 0;
+    gap: 37px;
+    align-items: center;
+}
+
+.list-item {
+    color: #212121;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.list-item:hover {
+    color: #646464;
+    cursor: pointer;
+}
+
+.btn-click {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    width: 97px;
+    height: 32px;
+    border: none;
+    border-radius: 15px 0px;
+    background: #CAA892;
+}
+
+.par_1{
+    color: #646464;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.par_2{
+    color: #212121;
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 78px; /* 108.333% */
+} 
+
+.par_3{
+    color: #646464;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.btn_1{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100px;
+    height: 37px;
+    border: none;
+    border-radius: 15px 0px;
+    background: #029128;
+}
+
+.ddd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car_1{
+    width: 630px;
+    height: 500px;
+    border: 2px solid rgb(255, 183, 0);
+    border-radius:  120px 0px;
+    margin-top: 50px;
+    top: -50px; left: -55px; z-index: 5;
+}
+
+.imm{
+    position: relative;
+    z-index: 10;
+    top: -30px; left: -35px; z-index: 5;
+    width: 630px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    height: 500px;
+    border-radius: 120px 0px;
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
